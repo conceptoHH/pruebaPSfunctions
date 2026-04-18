@@ -19,7 +19,17 @@ function gip ($remote, $branch) {
     git push -u $remote $branch
 }
 
+function gpl ($remote, $branch) {
+    git pull $remote $branch
+}
+
 function notes {
     Push-Location C:\Users\PC\Documents\notas
     code .
+}
+
+function maki {
+    Push-Location C:\Users\PC\REPOSITORIOS\makiavelo_bot_disc\dc_bot_maki
+    .\Scripts\Activate.ps1
+    python .\main.py
 }

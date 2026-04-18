@@ -89,7 +89,7 @@ cmp.setup({
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 -- Lista de servidores a configurar (deben estar instalados vía :Mason)
-local servers = { 'clangd', 'html', 'cssls', 'ts_ls', 'lua_ls', 'ty', 'rumdl'}
+local servers = { 'clangd', 'html', 'cssls', 'ts_ls', 'lua_ls', 'ty', 'rumdl','jdtls'}
 
 -- Bucle para inyectar capacidades y habilitar cada servidor
 for _, lsp in ipairs(servers) do
